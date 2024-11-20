@@ -1,3 +1,6 @@
+//> using nativeVersion 0.5.6
+//> using scala 3.5.2
+
 @main def hello(u: Int) = 
   val r = scala.util.Random.nextInt(10_000)
   val a = Array.ofDim[Int](10_000)
